@@ -35,7 +35,7 @@ Note: Contrary to IIS 6.0, IIS 7.0 does not support multiple extensiosn in the s
 Any `.md` or `.markdown` file is now converted to html and rendered. 
 
 # Implementation detail
-Renmdering is done client side using Strapdown.js
+Rendering is done client side using Strapdown.js
 
 # Credits
 http://strapdownjs.com/

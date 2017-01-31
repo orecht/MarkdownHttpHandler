@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>MarkdownHttpHandler</id>
-    <version>0.8.1</version>
+    <version>0.8.8</version>
     <authors>Oren Recht</authors>
     <owners>Oren Recht</owners>
     <projectUrl>https://github.com/orecht/MarkdownHttpHandler</projectUrl>
@@ -17,6 +17,7 @@
   </metadata>
   <files>
     <file src="..\ORecht.MarkdownHandler\bin\Debug\**" target="bin" />
-    <file src="*.xdt" target="content\" />
+    <file src="..\ORecht.MarkdownHandler\web.config" target="" />
+    <file src="..\ORecht.MarkdownHandler\content\**" target="content" />
   </files>
 </package>

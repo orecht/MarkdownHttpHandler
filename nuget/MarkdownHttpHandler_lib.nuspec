@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MarkdownHttpHandler_lib</id>
+    <version>0.8.12</version>
+    <authors>Oren Recht</authors>
+    <owners>Oren Recht</owners>
+    <projectUrl>https://github.com/orecht/MarkdownHttpHandler</projectUrl>
+    <iconUrl>https://orecht.github.io/MarkdownHttpHandler/images/MarkdownHttpHandler.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>IIS handler to display .md files in any IIS website</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Makrdown IIS helper</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\ORecht.MarkdownHandler\bin\Debug\**" target="lib\net40" />
+    <file src="..\ORecht.MarkdownHandler\web.config" target="" />
+    <file src="..\ORecht.MarkdownHandler\content\**" target="content" />
+  </files>
+</package>

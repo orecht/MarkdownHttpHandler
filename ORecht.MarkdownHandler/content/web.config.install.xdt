@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform" >
-    <system.webServer xdt:Transform="InsertIfMissing">
-        <handlers xdt:Transform="InsertIfMissing">
-            <add name="MdHandler" path="*.md" verb="*" type="System.Web.Handlers.MarkdownHandler" resourceType="Unspecified" requireAccess="Read" preCondition="integratedMode" />
-            <add name="MarkdownHandler" path="*.markdown" verb="*" type="System.Web.Handlers.MarkdownHandler" resourceType="Unspecified" requireAccess="Read" preCondition="integratedMode" />
+    <system.webServer>
+        <handlers>
+            <add name="MdHandler" path="*.md" verb="*" type="System.Web.Handlers.MarkdownHandler" resourceType="Unspecified" requireAccess="Read" preCondition="integratedMode" xdt:Transform="Insert"/>
+            <add name="MarkdownHandler" path="*.markdown" verb="*" type="System.Web.Handlers.MarkdownHandler" resourceType="Unspecified" requireAccess="Read" preCondition="integratedMode" xdt:Transform="Insert"/>
         </handlers>
     </system.webServer>
 </configuration>

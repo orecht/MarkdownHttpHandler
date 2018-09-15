@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORecht.MarkdownHandler.Test.ASP.NET", "ORecht.MarkdownHandler.Test.ASP.NET\ORecht.MarkdownHandler.Test.ASP.NET.csproj", "{1C4D5E73-6D19-44D7-A281-77B84BC49121}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ORecht.MarkdownHandler", "..\ORecht.MarkdownHandler\ORecht.MarkdownHandler.csproj", "{7D553BA3-5E0C-4A22-BE4F-6BE99011F720}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C4D5E73-6D19-44D7-A281-77B84BC49121}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C4D5E73-6D19-44D7-A281-77B84BC49121}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C4D5E73-6D19-44D7-A281-77B84BC49121}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C4D5E73-6D19-44D7-A281-77B84BC49121}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D553BA3-5E0C-4A22-BE4F-6BE99011F720}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D553BA3-5E0C-4A22-BE4F-6BE99011F720}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D553BA3-5E0C-4A22-BE4F-6BE99011F720}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D553BA3-5E0C-4A22-BE4F-6BE99011F720}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F2DF6AE1-3F68-435C-A47D-1D01159CFB89}
+	EndGlobalSection
+EndGlobal
